@@ -2,8 +2,6 @@ package operatingsystem;
 
 public interface OperatingSystem {
 
-    void openWindow();
+    void openWindow(String title);
     void showInfo();
-
-
 }
